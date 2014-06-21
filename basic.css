@@ -1,0 +1,70 @@
+.container {
+  margin: auto;
+  max-width: 400px;
+}
+
+#action {
+  padding-bottom: 20px;
+}
+#action input, #action button {
+  width: 100%;
+  border: 1px #ccc solid;
+  padding: 5px;
+  font-family: monospace;
+}
+#action textarea {
+  width: 100%;
+  border: 1px #ccc solid;
+  padding: 5px;
+}
+
+.note {
+  padding: 5px;
+  margin: 5px 0px;
+  border:1px solid #aaa;
+  font-family: monospace;
+}
+
+#page br {
+  clear: both;
+}
+
+
+
+@media (min-width: 600px) {
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+#main {
+  float:left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.notes-by-tag{
+  float:right;
+  padding-top: 0px;
+  padding-left: 20px;
+  width:50%;
+  box-sizing: border-box;
+}
+}
+
+@media (min-width: 1200px) {
+
+.container {
+  margin: auto;
+  max-width: 1600px;
+}
+
+#main {
+  width: 33%;
+}
+
+.notes-by-tag{
+  width:33%;
+  float:left;
+}
+}
